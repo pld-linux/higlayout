@@ -1,12 +1,13 @@
 Summary:	Easy to use and powerful layout manager for Java
+Summary(pl):	£atwy w u¿yciu i potê¿ny zarz±dca uk³adów graficznych dla Javy
 Name:		higlayout
 Version:	1.0
 Release:	0.1
 License:	LGPL
 Group:		Libraries
-URL:		http://www.autel.cz/dmi/tutorial.html
 Source0:	http://www.autel.cz/dmi/HIGLayout%{version}.zip
 # Source0-md5:	5bd79f33157824499b0fc03d6a5e080a
+URL:		http://www.autel.cz/dmi/tutorial.html
 Requires:	jre >= 1.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -22,10 +23,10 @@ Summary(pl):	Dokumentacja Java API dla higlayout
 Group:		Documentation
 
 %description javadoc
-Java API documentation for higlayout
+Java API documentation for higlayout.
 
 %description javadoc -l pl
-Dokumentacja Java API dla higlayout
+Dokumentacja Java API dla higlayout.
 
 %prep
 %setup -q -c
