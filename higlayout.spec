@@ -9,6 +9,7 @@ Source0:	http://www.autel.cz/dmi/HIGLayout%{version}.zip
 # Source0-md5:	5bd79f33157824499b0fc03d6a5e080a
 URL:		http://www.autel.cz/dmi/tutorial.html
 BuildRequires:	java-sun
+BuildRequires:	sed >= 4.0
 Requires:	jre >= 1.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
