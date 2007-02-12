@@ -1,5 +1,5 @@
 Summary:	Easy to use and powerful layout manager for Java
-Summary(pl.UTF-8):   Łatwy w użyciu i potężny zarządca układów graficznych dla Javy
+Summary(pl.UTF-8):	Łatwy w użyciu i potężny zarządca układów graficznych dla Javy
 Name:		higlayout
 Version:	1.0
 Release:	0.1
@@ -21,7 +21,7 @@ Easy to use and powerful layout manager for Java.
 
 %package javadoc
 Summary:	Java API documentation for higlayout
-Summary(pl.UTF-8):   Dokumentacja Java API dla higlayout
+Summary(pl.UTF-8):	Dokumentacja Java API dla higlayout
 Group:		Documentation
 
 %description javadoc
