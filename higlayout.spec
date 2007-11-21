@@ -2,7 +2,7 @@ Summary:	Easy to use and powerful layout manager for Java
 Summary(pl.UTF-8):	Łatwy w użyciu i potężny zarządca układów graficznych dla Javy
 Name:		higlayout
 Version:	1.0
-Release:	0.1
+Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	http://www.autel.cz/dmi/HIGLayout%{version}.zip
@@ -10,6 +10,7 @@ Source0:	http://www.autel.cz/dmi/HIGLayout%{version}.zip
 URL:		http://www.autel.cz/dmi/tutorial.html
 BuildRequires:	java-sun
 BuildRequires:	sed >= 4.0
+BuildRequires:	unzip
 Requires:	jre >= 1.4
 ExclusiveArch:	i586 i686 pentium3 pentium4 athlon %{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
