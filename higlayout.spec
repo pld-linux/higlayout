@@ -1,8 +1,5 @@
-# TODO:
-# - java docs doesn't build on builders
-#
 # Conditional build:
-%bcond_with	javadoc		# don't build javadoc
+%bcond_without	javadoc		# don't build javadoc
 #
 %include	/usr/lib/rpm/macros.java
 Summary:	Easy to use and powerful layout manager for Java
@@ -60,7 +57,7 @@ rm -rf apidoc; mkdir apidoc
 
 %build
 %if %{with javadoc}
-%javadoc -link %{_javadocdir}/java -d apidoc cz.autel.dmi
+CLASSPATH=. %javadoc -link %{_javadocdir}/java -d apidoc cz.autel.dmi
 %endif
 %javac -source 1.4 cz/autel/dmi/*.java
 %jar cf %{name}.jar cz/autel/dmi/*.class
