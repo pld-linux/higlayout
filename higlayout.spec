@@ -92,7 +92,7 @@ ln -nfs %{name}-%{version} %{_javadocdir}/%{name}
 
 %files
 %defattr(644,root,root,755)
-%doc Changes.txt LGPLicense.txt readme.txt
+%doc Changes.txt readme.txt
 %{_javadir}/%{name}*.jar
 
 %files demo
