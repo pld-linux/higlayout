@@ -39,9 +39,9 @@ sed -i -e 's/\r//g' examples/*.java tutorial/*.html *.txt
 rm -rf apidoc ; mkdir apidoc
 
 %build
+javadoc -link %{_javadocdir}/java -d apidoc cz.autel.dmi
 javac -source 1.4 cz/autel/dmi/*.java
 jar cf %{name}.jar cz/autel/dmi/*.class
-javadoc -link %{_javadocdir}/java -d apidoc cz.autel.dmi
 
 %install
 rm -rf $RPM_BUILD_ROOT
