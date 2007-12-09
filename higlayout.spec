@@ -15,6 +15,7 @@ URL:		http://www.autel.cz/dmi/tutorial.html
 BuildRequires:	jdk
 BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
+Requires:	jpackage-utils
 Requires:	jre >= 1.4
 BuildArch:	noarch
 ExclusiveArch:	i586 i686 pentium3 pentium4 athlon %{x8664} noarch
