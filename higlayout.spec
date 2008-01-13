@@ -1,3 +1,4 @@
+#
 # Conditional build:
 %bcond_without	javadoc		# don't build javadoc
 #
