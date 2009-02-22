@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	javadoc		# don't build javadoc
+%bcond_with	javadoc		# build javadoc (doesn't build on builders)
 #
 %include	/usr/lib/rpm/macros.java
 Summary:	Easy to use and powerful layout manager for Java
