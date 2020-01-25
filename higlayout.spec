@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	javadoc		# build javadoc (doesn't build on builders)
 #
-%include	/usr/lib/rpm/macros.java
 Summary:	Easy to use and powerful layout manager for Java
 Summary(pl.UTF-8):	Łatwy w użyciu i potężny zarządca układów graficznych dla Javy
 Name:		higlayout
